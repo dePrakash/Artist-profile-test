@@ -53,16 +53,15 @@ a {
 }
 
 a:hover {
-  color: grey;
-  text-decoration: underline;
-  text-underline-offset: 1rem;
+  color: #0071e3;
+  /* text-decoration: underline;
+  text-underline-offset: 1rem; */
   text-decoration-color: rgb(181, 181, 181);
 }
 
 .logo {
   font-size: 2rem;
-  /* color:  #0071e3;
-  font-weight: bold; */
+  /* color:  #0071e3; */
 }
 
 .logo:hover {
@@ -214,9 +213,10 @@ section {
 
 .icon {
   cursor: pointer;
-  height: 2rem;
+  height: 2.5rem;
   -webkit-tap-highlight-color: transparent !important;
 }
+
 
 /* BUTTONS */
 
@@ -377,7 +377,6 @@ article .icon {
 
 .project-img {
   border-radius: 1rem;
-  /* border-radius: 2rem; */
   width: 90%;
   height: 90%;
 }
@@ -394,6 +393,9 @@ article .icon {
   /* border-width: medium; */
   /* border: none; */
 }
+
+
+/* ORDER SECTION */
 
 /* CONTACT */
 
@@ -427,6 +429,9 @@ article .icon {
 
   justify-content: space-around;
 }
+.contact-info-container:hover{
+  color: #0071e3;
+}
 
 .contact-info-container p {
   font-size: larger;
@@ -438,7 +443,7 @@ article .icon {
 }
 
 .email-icon {
-  height: 2rem;
+  height: 2.5rem;
 }
 
 /* FOOTER SECTION */

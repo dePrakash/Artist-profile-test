@@ -189,7 +189,11 @@ text-decoration-color: rgb(181, 181, 181);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 1rem;
     justify-content: space-around;
+  }
+  .oil-img{
+    width: 100%;
+    border-radius: 5px;
   }
 
