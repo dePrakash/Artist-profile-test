@@ -2,6 +2,7 @@
     .oil-title {
         font-weight: bold;
         color: #0071e3;
+        text-align: center;
     }
     .logo{
         display: none;
@@ -17,12 +18,16 @@
     .oil-title {
         font-weight: bold;
         color: #0071e3;
+        text-align: center;
     }
     .nav-links{
         display: none;
     }
     .logo{
         display: none;
+    }
+    .card{
+        width: 20%;
     }
     #desktop-nav {
         display: none;
